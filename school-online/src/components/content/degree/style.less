@@ -1,0 +1,81 @@
+.degree-box, .knowledge-box{
+  width: 100%;
+  margin-top: .1rem;
+  padding: .2rem 2.3%;
+  background: #fff;
+  .degree-scroll li{
+    width: 1.28rem;
+    height: 1.93rem;
+  }
+  .degree-scroll, .knowledge-scroll{
+    width: 100%;
+    overflow-x: auto;
+    .list-box{
+      margin-top: .15rem;
+      width: 5.42rem;
+      .item-box{
+        margin-right: .1rem;
+        margin-bottom: .1rem;
+        display: inline-block;
+        position: relative;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        .img-top{
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url("//storage.xuetangx.com/public_assets/xuetangx/xuetangxImg/degrees-mask.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100% 100%;
+          .degree-company{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: .4rem;
+            color: #fff;
+            line-height: .4rem;
+            text-align: center;
+            font-size: .1rem;
+            font-weight: 600;
+          }
+          .degree-name{
+            font-size: .18rem;
+            width: 100%;
+            padding-left: .15rem;
+            padding-right: .15rem;
+            text-align: center;
+            color: #fff;
+            margin-top: .67rem;
+          }
+        }
+      }
+      li:last-child{
+        margin-right: 0;
+      }
+    }
+    .knowledge-list{
+      width: 7.2rem;
+      padding-bottom: .25rem;
+      li{
+        width: 1.1rem;
+        position: relative;
+        p{
+          position: absolute;
+          width: 100%;
+          height: .15rem;
+          line-height: .15rem;
+          left: 0;
+          bottom: -.25rem;
+          font-size: .15rem;
+          color: #333;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.login-box{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-family: 'Microsoft YaHei';
+  .login-banner{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .third-party{
+    margin-top: .2rem;
+    width: 100%;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    > div{
+      width: 100%;
+      border-bottom: 1px dotted #c1c1c1;
+      padding-bottom: .25rem;
+      padding-top: .1rem;
+      span{
+        display: inline-block;
+        line-height: .38rem;
+        font-size: .16rem;
+        color: #4b4b4b;
+      }
+      .third-icon{
+        float: right;
+        display: -webkit-flex;
+        > div{
+          width: .4rem;
+          height: .4rem;
+          border-radius: 50%;
+          padding: .08rem;
+          border: 1px solid #ce2432;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .micro-icon{
+          background-color: #ce2432;
+          margin-right: .2rem;
+        }
+        .qq-icon{
+          background: #3498db;
+          border-color: #3498db;
+
+        }
+      }
+    }
+  }
+  .form-box{
+    width: 100%;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    margin-top: .25rem;
+    .form-title{
+      margin-bottom: .2rem;
+      span{
+        font-size: .14rem;
+      }
+      a{
+        float: right;
+      }
+    }
+    form{
+      width: 100%;
+      input{
+        border: 1px solid rgba(39,41,43,0.15);
+        width: 100%;
+        display: block;
+        margin-top: .2rem;
+        text-align: center;
+        outline: none;
+        border-radius: .05rem;
+        height: .5rem;
+        line-height: .5rem;
+        -webkit-appearance: none;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      } 
+      ::-webkit-input-placeholder{
+        font-family: 'Microsoft YaHei';
+        font-size: .16rem;
+      }
+      .btn-box{
+        width: 100%;
+        button{
+          background: #8040ff;
+          text-align: center;
+          color: #fff;
+          height: .5rem;
+          line-height: .4rem;
+          font-size: .16rem;
+          border-radius: .05rem;
+          font-family: 'Microsoft YaHei';
+          font-weight: 600;
+        }
+      }
+      .code-box{
+        width: 100%;
+        position: relative;
+        height: .5rem;
+        .code-img{
+          position: absolute;
+          top: .1rem;
+          left: 0;
+        }
+      }
+      .error-box{
+        width: 100%;
+        text-align: center;
+        color: red;
+        font-size: .16rem;
+        margin-top: .1rem;
+        height: .5rem;
+      }
+    }
+  }
+}
